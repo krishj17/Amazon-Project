@@ -1,0 +1,158 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    text-wrap: nowrap;
+    font-size: 14px;    /* its the default font size of amazon web */
+}
+
+.border{   
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+/* NAVIGATION SECTION */
+/* LOGO */
+#nav{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+#logo{
+    height: 50px;
+    width: 100px;
+    background-image: url(images/amazon_logo.png);
+    background-size: cover;
+}
+
+/* ADDRESS */
+.nav-address{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 85px;
+}
+#add-up{
+    display: flex;
+    flex-direction: column;
+    color: #cccccc;
+    font-size: 0.85rem;
+    
+}
+.address-icon{
+    margin-top: 14px; 
+    margin-left: 5px;
+}
+#add-down{
+    color: #f3f3f3;
+    font-size: 1rem;
+    margin-left: 3px;
+    font-weight: 600;
+}
+
+/* SEARCH */
+.nav-search{
+    display: flex;
+    justify-content:space-evenly;
+    border-radius: 5px;
+    background-color: aqua;
+    height: 40px;
+    width: 620px;
+}
+.nav-search:hover{
+    border: 2px solid #febd68;
+}
+#search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+#search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+#search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #febd68;
+    color: #0f1111;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* LANGUAGE */
+.nav-language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 75px;
+}
+#lang-select{
+    background-color: #0f1111;
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+}
+#lang-img{
+    height: 1rem;
+}
+
+/* ACCOUNT & LISTS  and  RETURN & ORDERS */
+.nav-right{
+    height: 50px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orders{
+    width: 76px;
+}
+#nav-account-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#right-up{
+    font-size: 0.9rem;
+}
+#right-down{
+    font-weight: 600;
+}
+#acc-icon{
+    color: #cccccc;
+}
+
+/* CART */
+.nav-cart{
+    height: 50px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cart{
+    font-size: 1.5rem;   
+}
+#cart-text{
+    font-weight: 600;
+}
