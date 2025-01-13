@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    border: border-box;
+    box-sizing: border-box;
     text-wrap: nowrap;
     font-size: 14px;    /* its the default font size of amazon web */
 }
@@ -15,7 +15,7 @@
     border-radius: 3px;
 }
 
-/* NAVIGATION SECTION */
+/* ___________________NAVIGATION SECTION__________________ */
 /* LOGO */
 #nav{
     height: 60px;
@@ -156,3 +156,173 @@
 #cart-text{
     font-weight: 600;
 }
+
+
+/* _________________MENU SECTION________________ */
+#menu a{
+    text-decoration: none;
+    color: white;
+}
+#menu{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    
+}
+
+/* MENU START */
+.all-menu-link{
+    height: 40px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#three-slice{
+    font-size: 1.5rem;
+}
+#all-text{
+    font-size: 1.2rem;
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+/* MENU MID */
+.menu-mid{
+    display: flex;  
+}
+.menu-mid-cont{ 
+    padding: 0px 5px 0px 5px;
+    display: flex;
+    align-items: center;
+    height: 40px;    
+}
+
+/* header{
+    display: none;
+} */
+
+/* _________________________________________BODY___________________________________________________ */
+
+/* ___________________HERO SECTION___________________ */
+#hero-section{
+    height: 350px;      /* 600px - apna college*/ 
+    background-image: url(images/hero_image.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#hero-message{
+    background-color: white;
+    color: black;
+    height: 2rem;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+#hero-message a{
+    color: #007185;
+}
+
+/*_________________SHOP SECTION_________________*/
+#shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right,#99faff, #cfd2e9,#fee2d7);
+    /* background-color: #e2e7e6; */ 
+}
+#shop-section a{
+    color: #007185;
+}
+.box{
+    height: 350px;
+    /* border: 2px solid red; */
+    width: 23%;
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+#shop-section h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+.box-image{
+    background-size: cover;
+    height:80%;
+}
+
+/* _________________________________________FOOTER___________________________________________________ */
+
+/*_________________PANEL-1_________________*/
+#footer-panel1{
+    background-color: #37475a;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+#footer-panel1:hover{
+    background-color: #37475aeb;
+}
+
+/*_________________PANEL-2_________________*/
+#footer-panel2{
+    color: white;
+    background-color: #222f3d;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 30px;
+}
+#footer-panel2 p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+#footer-panel2 a{
+    margin-top: 10px;
+    color: #cccccc;
+    display: block;
+}
+#footer-panel2 a:hover{
+    text-decoration: underline;
+}
+
+/*_________________PANEL-3_________________*/
+#footer-panel3{
+    border-top: 1.5px solid #37475a;
+    background-color: #222f3d;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cccccc;
+}
+#footer-panel3 a{
+    margin-left: 10px;
+}
+.foot-panel3-lang p{
+    padding: 0px 20px 0px 5px;
+}
+.panel3-style{
+    display: flex;
+    padding: 7px;
+    border: 0.3px solid #cccccc;
+    border-radius: 3px;
+}
+.foot-panel3-country{
+    align-items: center;  
+}
+
+/* Last Edit: 13-1-2025 */
